@@ -1,0 +1,27 @@
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.overview {
+  height: 180px;
+  background-color: #d3dae1;
+}
+
+@media screen and (min-width:992px) {
+  .c-accordion {
+    max-width: 80%;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
